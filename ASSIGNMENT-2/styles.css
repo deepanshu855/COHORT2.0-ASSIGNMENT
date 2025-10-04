@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Diwali;
+  src: url(Crimetargetsdemo-zre73.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  padding: 70px;
+  font-family: Diwali;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+  color: #ffffff;
+  background-image: url(https://images.unsplash.com/photo-1605302977545-3a09913be1dd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+
+button {
+  margin: 40px;
+  padding: 15px 25px;
+  background-color: #9c2700;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
