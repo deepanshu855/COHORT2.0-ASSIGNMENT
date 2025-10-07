@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+
+nav {
+  height: 80px;
+  font-size: 20px;
+
+  padding: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav h3 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+#hero {
+  height: 78vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+#hero h1 {
+  font-size: 250px;
+  font-weight: 400;
+}
+
+#leftbar {
+  height: 200px;
+  width: 200px;
+
+  position: absolute;
+  left: 2%;
+  top: 60%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#leftbar h4 {
+  font-size: 20px;
+}
+
+#leftbar p {
+  font-size: 13px;
+}
+
+#bottombar {
+  height: 80px;
+  font-size: 20px;
+
+  padding: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#bottombar a{
+    text-decoration: none;
+    color: black;
+}
+
+#hero img{
+    width: 200px;
+    object-fit: cover;
+    position: absolute;
+}
+
+#hero #img-1{
+    height: 200px;
+    top: 48%;
+    left: 43%;
+}
+
+#hero #img-2{
+    height: 180px;
+    top: 70%;
+    left: 50%;
+}
+
+#hero #img-3{
+    height: 300px;
+    top: 40%;
+    left: 60%;
+}
