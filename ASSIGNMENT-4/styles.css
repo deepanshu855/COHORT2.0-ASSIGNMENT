@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "dribble";
+  src: url(./Mona-Sans-870dff5a10221ba7d01cc47eca10d0b2f911bd4196bb941985490bd8c7363cd9.woff2)
+    format(woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 90px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.nav .logo,
+.nav .logo h3 {
+  font-family: "dribble", sans-serif;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.cta button {
+  padding: 15px 25px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+
+.cta .btn1 {
+  background-color: transparent;
+  color: black;
+}
+
+.cta .btn2 {
+  background-color: black;
+  color: white;
+}
+
+.hero {
+  padding: 20px;
+}
+
+.card {
+  height: 200px;
+  width: 250px;
+  position: relative;
+
+  background-image: url(https://images.unsplash.com/photo-1589391285589-cf8e0835f4c0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170);
+  background-size: cover;
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 40%;
+  width: 100%;
+  position: absolute;
+
+  background: linear-gradient(transparent, black);
+  bottom: -40%;
+
+  transition: all ease 0.5s;
+}
+
+.bottom h3,
+i {
+  color: white;
+}
+
+.card:hover .bottom {
+  bottom: 0%;
+}
