@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 1.2fr 1.2fr;
+    grid-template-areas: "div-1 div-2 div-3"
+                         "div-1 div-4 div-3"
+                         "div-6 div-7 div-7";
+    gap: 20px;
+
+    height: 100%;
+    width: 100%;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+}
+
+.div-1{
+    grid-area: div-1;
+    border-radius: 10px;
+
+    background-image: url(https://i.redd.it/fofrhdw84m361.jpg);
+
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.div-2{
+    grid-area: div-2;
+    border-radius: 10px;
+
+    background-image: url(https://m.media-amazon.com/images/M/MV5BNTE4NjgyMDUtMTJlYS00YmY1LWFkYmMtZmVkMGI0NjAyODlhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg);
+
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.div-3{
+    grid-area: div-3;
+    border-radius: 10px;
+
+    background-image: url(https://i.ytimg.com/vi/CEefiZFOSuA/maxresdefault.jpg);
+
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.div-4{
+    grid-area: div-4;
+    border-radius: 10px;
+
+    background-image: url(https://m.media-amazon.com/images/S/pv-target-images/2386936a5b24291ea978aba5eacd4ffe5e3b271d6d3c8f93a9102ec9c49edb98._SX1080_FMjpg_.jpg);
+
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.div-6{
+    grid-area: div-6;
+    border-radius: 10px;
+
+    background-image: url(https://static0.cbrimages.com/wordpress/wp-content/uploads/2019/10/Attack-on-Titan-Colossal-Titan-Cropped.jpg);
+
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.div-7{
+    grid-area: div-7;
+    border-radius: 10px;
+
+    background-image: url(https://i.redd.it/vmzgebe0mlq61.jpg);
+
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.bottom{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    bottom: -40%;
+    font-size: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(transparent, black);
+    transition: all ease 0.5s;
+}
+
+.box:hover .bottom{
+    bottom: 0;
+}
+
+
