@@ -4,3 +4,4 @@
 - ASSIGNMENT4-> Dribbble.com hover transition and revision of all the topics.
 - ASSIGNMENT5-> Attack on titan bento grid.
 - ASSIGNMENT6-> Basic problems in js (intro related).
+- ASSIGNMENT7-> DOM counter increase, decrease & reset.
