@@ -7,3 +7,4 @@
 - ASSIGNMENT7-> DOM counter increase, decrease & reset.
 - ASSIGNMENT8-> Randomness in DOM.
 - ASSIGNMENT9-> Randomness in DOM.
+- ASSIGNMENT10-> Create and append element.
