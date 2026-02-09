@@ -1,7 +1,7 @@
 let box = document.getElementById("box");
 let btn = document.querySelector("button");
 let main = document.querySelector("main");
-let h1= document.getElementById('title');
+let h1 = document.getElementById("title");
 
 let ipl = [
   {
@@ -51,14 +51,14 @@ let ipl = [
   },
 ];
 
-btn.addEventListener('click', function(){
-    let num= Math.floor(Math.random()*10);
-    
-    let title= ipl[num].title;
-    let primary= ipl[num].primary;
-    let secondary= ipl[num].secondary;
+btn.addEventListener("click", function () {
+  let num = Math.floor(Math.random() * ipl.length);
 
-    h1.textContent= title;
-    box.style.backgroundColor= primary;
-    main.style.backgroundColor= secondary;
-})
+  let title = ipl[num].title;
+  let primary = ipl[num].primary;
+  let secondary = ipl[num].secondary;
+
+  h1.textContent = title;
+  box.style.backgroundColor = primary;
+  main.style.backgroundColor = secondary;
+});
