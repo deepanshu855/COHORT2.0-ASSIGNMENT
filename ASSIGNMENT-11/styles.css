@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow: hidden;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.card{
+    width: 500px;
+    background-color: #fff;
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+.loader{
+    height: 20px;
+    width: 100%;
+    background-color: #9e9a9a;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
+.inner{
+    height: 100%;
+    width: 0%;
+    background-color: green;
+}
+
+button{
+    padding: 10px 20px;
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+button:active{
+    scale: 0.9;
+}
+
+.downloadDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.downloadDiv h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h1 span{
+    color: blue;
+}
+
+h2 span{
+    color: blue;
+}
+
