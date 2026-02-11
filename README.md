@@ -9,3 +9,4 @@
 - ASSIGNMENT9-> Randomness in DOM.
 - ASSIGNMENT10-> Create and append element.
 - ASSIGNMENT11-> Download card.
+- ASSIGNMENT12-> Like animation card.
